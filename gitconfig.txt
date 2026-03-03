@@ -5,3 +5,9 @@ git config --global user.email isabelagomesmachado05@gmail.com
 -- Criar um projeto vazio
 npx create-expo-app@latest calculadorinha --template blank
 
+-- toda aula
+cd calculadorinha
+npm i 
+
+--executar o projeto
+npx expo start --android
