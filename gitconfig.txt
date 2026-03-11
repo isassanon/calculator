@@ -3,11 +3,11 @@ git config --global user.name isassanon
 git config --global user.email isabelagomesmachado05@gmail.com
 
 -- Criar um projeto vazio
-npx create-expo-app@latest calculadorinha --template blank
+npx create-expo-app@latest calculadora --template blank
 
--- toda aula
-cd calculadorinha
-npm i 
+-- Toda aula ao começar
+cd calculadora
+npm i
 
---executar o projeto
+-- Executar o projeto
 npx expo start --android
