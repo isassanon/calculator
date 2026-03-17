@@ -52,7 +52,7 @@ export default function App() {
   const handleEquals = () => {
     const inputValue = parseFloat(display);
 
-    if (previousValue != nul && operator) {
+    if (previousValue != null && operator) {
       const result = calculate( previousValue, inputValue ,operator);
       setDisplay(String(result));
       setPreviousValue(null);
